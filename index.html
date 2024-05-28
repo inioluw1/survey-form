@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset=UTF-8">
+<title> Survey form</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1 id="title">Survey form</h1>
+  <p id="description"> Thank you for taking the time to come to our Skii resort and taking the time to help us improve</p>
+  <form id= "survey-form">
+    <fieldset>
+      <label id="name-label">  First name:  <input id="name" type="text" placeholder="bob"required></input>  </label>
+      <label id="name-label"> Last name:  <input id="name" type="text" placeholder="johnson" required></input> </label>
+      <label  id="number-label"> Age: <input id="number" type="number"  min="9" max="120" placeholder="19"
+></input> </label>
+      <label id="number-label"> Room number: <input id="number" type="text" min="0" max="120" placeholder="119"></input> </label>
+  <label  id="email-label"> Email: <input id="email" type="email" placeholder="doctype12@yahoo.com" required></input> </label>
+    </fieldset>
+    
+    <fieldset>
+      <label>  What was your favorite part of the resort? </label>
+<label> <input type="radio" class="inline" value="food" name="fav"></input> Food  </label> 
+<label> <input type="radio" class="inline" value="the hotel room"  name="fav"></input> The hotel room  </label>
+<label> <input type="radio" class="inline" value="the skiing" name="fav"></input> The skiing  </label>
+<label> <input type="radio" class="inline" value="whole experience"  name="fav"></input> The whole experience </label>
+
+  </fieldset> 
+  <fieldset>
+    <label> What was your least favorite part and how can we improve it??<input type="text" ></input> </label>
+    </fieldset>
+     <fieldset>
+    <label> On a scale of 1-10 how satisfied are you with your whole experience of the resort</label>
+    <label> <input type="checkbox" class="inline" value="very satisified"></input>  very satisfied </label>
+ <label> <input type="checkbox" class="inline" value="satisified"></input>  satisfied </label>
+ <label> <input type="checkbox" class="inline" value="neutral"></input> neutral </label>
+ <label> <input type="checkbox" class="inline" value="dissatisified"></input>  dissatisfied </label>
+
+    </field set>
+<fieldset>
+    <label>Any comments or suggestions? <textarea>  </textarea></label>
+</fieldset>
+  <fieldset>
+<label>How did you hear about us?
+          <select id="dropdown" >
+            <option value=""> (select one)</option>
+            <option value="1">TikTok</option>
+            <option value="2">Facebook</option>
+            <option value="3">Instagram</option>
+            <option value="4">friend</option>
+              <option value="5">other</option>
+          </select>
+        </label>
+</fieldset>
+
+  <input id="submit" type="submit" value="Submit" />
+    </form>
+  
+  
+</body>
+</html>
+

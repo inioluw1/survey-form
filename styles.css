@@ -1,0 +1,52 @@
+body {
+    background-image:linear-gradient(
+        115deg,
+        rgba(58, 58, 158, 0.8),
+        rgba(136, 136, 206, 0.7)
+      ), url(https://cdn.pixabay.com/photo/2012/07/14/05/55/allgau-52400_1280.jpg);
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    background-color:#003C43;
+    color: #f5f6f7;
+    font-family:cursive;
+    font-size: 16px;
+  }
+  
+  h1, p {
+    margin: 1em auto;
+    text-align: center;
+  }
+  form {
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+  }
+  
+  fieldset {
+    border: none;
+    padding: 2rem 0;
+    border-bottom: 3px solid #3b3b4f;
+  }
+  
+  fieldset:last-of-type {
+    border-bottom: none;
+  }
+  
+  label {
+    display: block;
+    margin: 0.5rem 0;
+  }
+  input,
+  textarea,select
+   {
+    margin: 10px 0 0 0;
+    width: 100%;
+  }
+  .inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+  }
+  
